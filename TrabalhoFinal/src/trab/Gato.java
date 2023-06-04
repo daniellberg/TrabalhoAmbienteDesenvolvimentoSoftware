@@ -11,4 +11,22 @@ public class Gato {
     }
 
   //chama método de outra classe
+
+  public void chamaComer (Cachorro gato){
+   gato.come();
+  }
+
+  public void chamaBebeAgua (Cachorro gato){
+    gato.bebeAgua();
+   }
+
+   public void chamaBrinca (Papagaio gato){
+    gato.brinca();
+   }
+
+   public void chamaFazNecessidade (Papagaio gato){
+    gato.fazNecessidades();
+   }
+
+
 }
