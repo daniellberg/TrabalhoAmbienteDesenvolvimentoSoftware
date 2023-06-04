@@ -10,7 +10,7 @@ public class Gato {
         System.out.println("Dormindo...");
     }
 
-  //chama método de outra classe
+  //chama métodos de outras classes
 
   public void chamaComer (Cachorro gato){
    gato.come();
@@ -28,5 +28,5 @@ public class Gato {
     gato.fazNecessidades();
    }
 
-
+    
 }
