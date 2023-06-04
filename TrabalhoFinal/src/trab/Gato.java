@@ -2,31 +2,44 @@ package trab;
 
 public class Gato {
 
-    public void fazSom(){
+    public void fazSom() {
         System.out.println("Emitindo barulho...");
     }
 
-    public void dorme(){
+    public void dorme() {
         System.out.println("Dormindo...");
     }
 
-  //chama métodos de outras classes
+    // metodo implementada por outro participante
 
-  public void chamaComer (Cachorro gato){
-   gato.come();
-  }
+    public void coceira() {
+        System.out.println("Se coçando...");
+    }
 
-  public void chamaBebeAgua (Cachorro gato){
-    gato.bebeAgua();
-   }
+    // chama métodos de outras classes
 
-   public void chamaBrinca (Papagaio gato){
-    gato.brinca();
-   }
+    public void chamaComer(Cachorro gato) {
+        gato.come();
+    }
 
-   public void chamaFazNecessidade (Papagaio gato){
-    gato.fazNecessidades();
-   }
+    public void chamaBebeAgua(Cachorro gato) {
+        gato.bebeAgua();
+    }
 
-    
+    public void chamaBrinca(Papagaio gato) {
+        gato.brinca();
+    }
+
+    public void chamaFazNecessidade(Papagaio gato) {
+        gato.fazNecessidades();
+    }
+
+    public void chamaMovimento (Papagaio gato) {
+        gato.movimenta();
+    }
+
+    public void chamaAcorda (Cachorro gato) {
+        gato.acorda();
+    }
+
 }

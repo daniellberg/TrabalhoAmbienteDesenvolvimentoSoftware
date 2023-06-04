@@ -10,6 +10,12 @@ public class Cachorro {
         System.out.println("Bebendo...");
     }
 
+    // metodo implementada por outro participante
+
+    public void acorda (){
+        System.out.println("Acordando...");
+    }
+
     // chama métodos de outras classes
 
     public void chamaSom(Gato cachorro) {
@@ -26,5 +32,13 @@ public class Cachorro {
 
     public void chamaFazNecessidade(Papagaio cachorro) {
         cachorro.fazNecessidades();
+    }
+
+    public void chamaCoceira (Gato cachorro) {
+        cachorro.coceira();
+    }
+
+    public void chamaMovimento (Papagaio cachorro) {
+        cachorro.movimenta();
     }
 }
